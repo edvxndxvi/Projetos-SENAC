@@ -1,0 +1,16 @@
+*{
+    font: normal 18pt Arial;
+}
+input{
+    font: normal 18pt Arial;
+    width: 200px;
+}
+.form{
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: grey 1px 1px 5px;
+    padding: 10px;
+    border-radius: 5%;
+}
