@@ -1,0 +1,57 @@
+body {
+    font: normal 16pt Arial;
+}
+
+
+#container {
+    margin: auto;
+    text-align: center;
+    /*centralizando os elementos*/
+}
+
+/*será criado classes dentro do css, o mesmo só será chamado no javascript*/
+.btnAzul,
+.btnVerde,
+.btnLaranja,
+#textos{
+    transition: 2s;
+}
+
+.btnAzul {
+    background-color: rgb(176, 233, 252);
+}
+
+.btnVerde {
+    background-color: rgb(147, 212, 147);
+}
+
+.btnLaranja {
+    background-color: rgb(252, 139, 95);
+}
+
+#btnAzul {
+    background-color: deepskyblue;
+}
+
+#btnVerde {
+    background-color: lightgreen;
+}
+
+#btnLaranja {
+    background-color: lightsalmon;
+}
+
+#btnAzul,
+#btnVerde,
+#btnLaranja {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer
+}
+#textos{
+    font: italic 16pt Arial;
+    color: white;
+}
